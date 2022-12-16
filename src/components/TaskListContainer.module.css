@@ -1,0 +1,91 @@
+.tasksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4.1875rem;
+}
+
+.taskListContainer {
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskListContainer header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.createdTasks > span {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--blue);
+}
+
+.completedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.completedTasks > span {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--purple);
+}
+
+.numberCounter {
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+}
+
+.numberCounter strong {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-100);
+}
+
+.noTasksContainer {
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+}
+
+.noTasksContainerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 1.5rem;
+}
+
+.noTasksContainerDetails > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noTasksContainerDetails > div > strong {
+  line-height: 140%;
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.noTasksContainerDetails > div > span {
+  line-height: 140%;
+  font-size: 1rem;
+  color: var(--gray-300);
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

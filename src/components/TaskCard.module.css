@@ -1,0 +1,50 @@
+.card {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.card img {
+  cursor: pointer;
+}
+
+.cardDetails {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.textCard {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray-100);
+}
+
+.textCardCompleted {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: line-through;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray-300);
+}
+
+.trashIcon {
+  padding: 0.0625rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.3125rem;
+}
+
+.trashIcon:hover {
+  background-color: var(--gray-400);
+}

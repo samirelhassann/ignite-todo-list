@@ -1,0 +1,53 @@
+.addTaskContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -1.5625rem;
+}
+
+.inputBar {
+  width: 39.875rem;
+  height: 3.125rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  padding: 1rem;
+
+  caret-color: var(--gray-100);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.inputBar:focus {
+  border: 1px solid var(--purple-dark);
+  color: var(--gray-100);
+}
+
+.inputBar::placeholder {
+  color: var(--gray-300);
+  line-height: 140%;
+}
+
+.addButton {
+  border: none;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: var(--blue);
+  transition: all ease 0.5s;
+}
+
+.addButton span {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
